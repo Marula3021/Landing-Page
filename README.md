@@ -2,9 +2,9 @@
 
 For this project, I wanted to give my personal touch and not just aim for the exact result I was asking for. This approach allowed me to challenge myself and better understand the ideas behind flexbox and how it works, especially the importance of structuring HTML to get all the flexbox content layouts perfectly. Flexbox is a powerful tool if used well. This project also gave me the opportunity to use my skills as a graphic designer. I can't wait to learn how to integrate my 3D skills into the coding world!
 
-I aimed to create a simple landing page for a fictitious crypto trading company called AGORA, inspired by various crypto trading web pages for the information content.
+I aimed to create a simple landing page for a fictitious crypto trading company called AGORA.
 
-This project gave me a little intro to the world of JavaScript. All the JavaScript parts mentioned below were created thanks to hours of research (StackOverflow,...) and some tweaking to get the desired outcome I was looking for.
+This project gave me a little introduction to the world of JavaScript functions. I had some ideas to make sections of the landing page dynamic, so all the JavaScript parts mentioned below were created thanks to hours of research, tweaking and testing (StackOverflow, etc.) to get the desired outcome I was looking for:
 
 - Dynamic Price Updates with specific ranges to each coin: Real-time updates with subsequent updates every minute for cryptocurrency prices and percentages.
     
