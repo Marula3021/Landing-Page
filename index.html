@@ -1,247 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="header">
-        <ul class="top-header">
-          <div class="logo">AGORA</div>
-          <div class="search-container">
-            <input
-              type="checkbox"
-              class="search-toggle"
-              id="searchToggle"
-              style="display: none"
-            />
-            <label for="searchToggle" class="search-icon"
-              ><img class="icon" src="./images/search.png" alt="search"
-            /></label>
-            <input
-              type="text"
-              class="search-input"
-              placeholder=" Search for Crypto"
-            />
-          </div>
-          <li class="button-sign"><a href="#">Sign in</a></li>
-          <li class="button"><a href="#">Markets</a></li>
-          <li class="button"><a href="#">Buy Crypto</a></li>
-          <li class="button"><a href="#">Trades</a></li>
-          <li class="button"><a href="#">Earn</a></li>
-          <li class="button"><a href="#">About us</a></li>
-        </ul>
-      </nav>
+        <nav class="header">
+            <ul class="top-header">
+                <div class="logo">AGORA</div>
+                <div class="search-container">
+                    <input type="checkbox" class="search-toggle" id="searchToggle" style="display: none" />
+                    <label for="searchToggle" class="search-icon"><img class="icon" src="./images/search.png"
+                            alt="search" /></label>
+                    <input type="text" class="search-input" placeholder=" Search for Crypto" />
+                </div>
+                <li class="button-sign"><a href="#">Sign in</a></li>
+                <li class="button"><a href="#">Markets</a></li>
+                <li class="button"><a href="#">Buy Crypto</a></li>
+                <li class="button"><a href="#">Trades</a></li>
+                <li class="button"><a href="#">Earn</a></li>
+                <li class="button"><a href="#">About us</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="parallax">
-      <div class="hero">
-        <div class="left">
-          <div class="title">The place where AI and Crypto Trading Meets</div>
-          <p>
-            Step into the future of cryptocurrency trading with Agora. Empower
-            your investments with AI and watch your portfolio grow like never
-            before.
-          </p>
-          <input placeholder="Email/Phone number" class="input" />
-          <button class="sign-up">Sign up</button>
-        </div>
-      </div>
-
-      <div class="information-wraper">
-        <h1>Key Features</h1>
-        <div class="media-wrapper">
-          <div class="media-container">
-            <img
-              class="media secure"
-              src="./images/Secure.png"
-              alt="secure-icon"
-            />
-            <div class="overlay">
-              <div class="text">
-                <h2>Secure and Transparent</h2>
-                Your security is our top priority. Agora ensures your assets are
-                protected with state-of-the-art encryption and blockchain
-                technology.
-              </div>
+        <div class="hero">
+            <div class="left">
+                <div class="title">The place where AI and Crypto Trading Meets</div>
+                <p>
+                    Step into the future of cryptocurrency trading with Agora. Empower
+                    your investments with AI and watch your portfolio grow like never
+                    before.
+                </p>
+                <input placeholder="Email/Phone number" class="input" />
+                <button class="sign-up">Sign up</button>
             </div>
-          </div>
+            <div class="crypto-wrapper">
+                <div class="crypto-top">
+                    <div id="trend" class="button crypto-trend">Popular</div>
+                    <div id="newl" class="button crypto-new">New Listing</div>
+                    <div class="crypto-all"><a href="#">View All coins ></a></div>
+                </div>
+                <div id="popular" class="crypto-media-wrapper active">
+                    <div class="crypto-media">
 
-          <div class="media-container">
-            <img
-              class="media friendly"
-              src="./images/Secure.png"
-              alt="friendly-icon"
-            />
-            <div class="overlay">
-              <div class="text">
-                <h2>User-Friendly Interface</h2>
-                Whether you're a seasoned trader or just getting started, our
-                intuitive platform is designed to make your trading experience
-                seamless.
-              </div>
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/Bitcoin.png" alt="BTC" height="20" />
+                                </a>
+                            </div>
+                            <b>BTC</b>
+                            <div>Bitcoin</div>
+                        </div>
+                        <div class="price" data-coin="BTC">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage" data-coin="BTC">
+                            -0.88%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/ethereum.png" alt="ETH" height="20" />
+                                </a>
+                            </div>
+                            <b>ETH</b>
+                            <div>Ethereum</div>
+                        </div>
+                        <div class="price" data-coin="ETH">
+                            $2,277.41
+                        </div>
+                        <div class="pourcentage" data-coin="ETH">
+                            -2.88%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/ftm.png" alt="FTM" height="20" />
+                                </a>
+                            </div>
+                            <b>FTM</b>
+                            <div>Fantom</div>
+                        </div>
+                        <div class="price" data-coin="FTM">
+                            $0,6211
+                        </div>
+                        <div class="pourcentage" data-coin="FTM">
+                            +2.88%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/DOGE.png" alt="DOGE" height="20" />
+                                </a>
+                            </div>
+                            <b>DOGE </b>
+                            <div>Dogecoin</div>
+                        </div>
+                        <div class="price" data-coin="DOGE">
+                            $0,15715
+                        </div>
+                        <div class="pourcentage" data-coin="DOGE">
+                            -5.88%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/BNB.png" alt="BNB" height="20" />
+                                </a>
+                            </div>
+                            <b>BNB</b>
+                            <div>BNB</div>
+                        </div>
+                        <div class="price" data-coin="BNB">
+                            $564.42
+                        </div>
+                        <div class="pourcentage" data-coin="BNB">
+                            +4.42%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/XRP.png" alt="XRP" height="20" />
+                                </a>
+                            </div>
+                            <b>XRP</b>
+                            <div>XRP</div>
+                        </div>
+                        <div class="price" data-coin="XMR">
+                            $0.5084
+                        </div>
+                        <div class="pourcentage" data-coin="XMR">
+                            -2.88%
+                        </div>
+
+                    </div>
+                    <div class="crypto-media">
+
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/ADA.png" alt="ADA" height="20" />
+                                </a>
+                            </div>
+                            <b>ADA</b>
+                            <div>Cardano</div>
+                        </div>
+                        <div class="price" data-coin="ADA">
+                            $0.3495
+                        </div>
+                        <div class="pourcentage" data-coin="ADA">
+                            +9.88%
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="Listing" class="crypto-media-wrapper">
+                    <div class="crypto-media">
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/LUMIA.png" alt="LUMIA" height="20" />
+                                </a>
+                            </div>
+                            <b>LUMIA</b>
+                            <div>LUMIA</div>
+                        </div>
+                        <div class="price" data-coin="LUMIA">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage negative" data-coin="LUMIA">
+                            -0.88%
+                        </div>
+                    </div>
+                    <div class="crypto-media">
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/TURBO.png" alt="TURBO" height="20" />
+                                </a>
+                            </div>
+                            <b>TURBO</b>
+                            <div>TURBO</div>
+                        </div>
+                        <div class="price" data-coin="TURBO">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage negative" data-coin="TURBO">
+                            -0.88%
+                        </div>
+                    </div>
+                    <div class="crypto-media">
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/BNSOL.png" alt="BNSOL" height="20" />
+                                </a>
+                            </div>
+                            <b>BNSOL</b>
+                            <div>Binance</div>
+                        </div>
+                        <div class="price" data-coin="BNSOL">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage negative" data-coin="BNSOL">
+                            -0.88%
+                        </div>
+                    </div>
+                    <div class="crypto-media">
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/SCR.png" alt="SCR" height="20" />
+                                </a>
+                            </div>
+                            <b>SCR</b>
+                            <div>Scroll</div>
+                        </div>
+                        <div class="price" data-coin="SCR">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage negative" data-coin="SCR">
+                            -0.88%
+                        </div>
+                    </div>
+                    <div class="crypto-media">
+                        <div class="Bitcoin">
+                            <div class="coin">
+                                <a href="#"><img src="./images/EIGEN.png" alt="EIGEN" height="20" />
+                                </a>
+                            </div>
+                            <b>EIGEN</b>
+                            <div>Eigenlayer</div>
+                        </div>
+                        <div class="price" data-coin="EIGEN">
+                            $69,277.49
+                        </div>
+                        <div class="pourcentage negative" data-coin="EIGEN">
+                            -0.88%
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <div class="media-container">
-            <img
-              class="media secure"
-              src="./images/Secure.png"
-              alt="trading-icon"
-            />
-            <div class="overlay">
-              <div class="text">
-                <h2>Automated Trading</h2>
-                Let our advanced algorithms handle trading for you, executing
-                strategies with precision and speed.
-              </div>
+        <div class="information-wraper">
+            <h1>Key Features</h1>
+            <div class="media-wrapper">
+                <div class="media-container">
+                    <img class="media secure" src="./images/Secure.png" alt="secure-icon" />
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>Secure and Transparent</h2>
+                            Your security is our top priority. Agora ensures your assets are
+                            protected with state-of-the-art encryption and blockchain
+                            technology.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-container">
+                    <img class="media friendly" src="./images/Secure.png" alt="friendly-icon" />
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>User-Friendly Interface</h2>
+                            Whether you're a seasoned trader or just getting started, our
+                            intuitive platform is designed to make your trading experience
+                            seamless.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-container">
+                    <img class="media secure" src="./images/Secure.png" alt="trading-icon" />
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>Automated Trading</h2>
+                            Let our advanced algorithms handle trading for you, executing
+                            strategies with precision and speed.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-container">
+                    <img class="media secure" src="./images/Secure.png" alt="AI-icon" />
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>AI-Driven Insights</h2>
+                            Harness the power of artificial intelligence to gain real-time
+                            market insights and predictions, ensuring you stay ahead of the
+                            curve.
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <div class="media-container">
-            <img class="media secure" src="./images/Secure.png" alt="AI-icon" />
-            <div class="overlay">
-              <div class="text">
-                <h2>AI-Driven Insights</h2>
-                Harness the power of artificial intelligence to gain real-time
-                market insights and predictions, ensuring you stay ahead of the
-                curve.
-              </div>
+        <div class="quote-wraper">
+            <div class="quote">
+                <p>
+                    "It's not about being right or wrong; it's about generating positive
+                    outcomes and learning from the journey."
+                </p>
+
+                <div class="author">Changpeng Zhao</div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <div class="quote-wraper">
-        <div class="quote">
-          <p>
-            "It's not about being right or wrong; it's about generating positive
-            outcomes and learning from the journey."
-          </p>
-
-          <div class="author">Changpeng Zhao</div>
-        </div>
-      </div>
-
-      <footer class="footer-wraper">
-        <div class="social-info-wrapper">
-          <div class="social-media-icons">
-            <a href="https://www.facebook.com" target="_blank">
-              <img
-                src="./images/icons8-facebook-32.png"
-                alt="Facebook"
-                height="32"
-              />
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-              <img
-                src="./images/icons8-twitterx-32.png"
-                alt="Twitter"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-              <img
-                src="./images/icons8-instagram-48.png"
-                alt="Instagram"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.github.com" target="_blank">
-              <img
-                src="./images/icons8-github-32.png"
-                alt="LinkedIn"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.reddit.com" target="_blank">
-              <img
-                src="./images/icons8-reddit-32.png"
-                alt="LinkedIn"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.telegram.com" target="_blank">
-              <img
-                src="./images/icons8-telegram-32.png"
-                alt="LinkedIn"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.youtube.com" target="_blank">
-              <img
-                src="./images/icons8-youtube-32.png"
-                alt="LinkedIn"
-                height="32"
-                width="32"
-              />
-            </a>
-            <a href="https://www.linkedin.com" target="_blank">
-              <img
-                src="./images/icons8-linkedin-32.png"
-                alt="LinkedIn"
-                height="32"
-                width="32"
-              />
-            </a>
-          </div>
-          <div class="footer-container">
-            <ul>
-              <li class="footer-title">Business</li>
-              <li>P2P Merchant Application</li>
-              <li>P2Pro Merchant Application</li>
-              <li>Listing Application</li>
-              <li>Institutional & VIP Services</li>
-            </ul>
-            <ul>
-              <li class="footer-title">Services</li>
-              <li>Affiliate</li>
-              <li>Referral</li>
-              <li>OTC Trading</li>
-              <li>Historical Market Data</li>
-            </ul>
-            <ul>
-              <li class="footer-title">Support</li>
-              <li>24/7 Chat Support</li>
-              <li>Support Center</li>
-              <li>APIs</li>
-              <li>Law Enforcement Requests</li>
-            </ul>
-            <ul>
-              <li class="footer-title">About Us</li>
-              <li>About</li>
-              <li>Careers</li>
-              <li>Building Trust</li>
-              <li>Privacy</li>
-            </ul>
-          </div>
-        </div>
-        <div class="owner">
-          <div class="copyright">AGORA© 2024</div>
-        </div>
-      </footer>
+        <footer class="footer-wraper">
+            <div class="social-info-wrapper">
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./images/icons8-facebook-32.png" alt="Facebook" height="32" />
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="./images/icons8-twitterx-32.png" alt="Twitter" height="32" width="32" />
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./images/icons8-instagram-48.png" alt="Instagram" height="32" width="32" />
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <img src="./images/icons8-github-32.png" alt="github" height="32" width="32" />
+                    </a>
+                    <a href="https://www.reddit.com" target="_blank">
+                        <img src="./images/icons8-reddit-32.png" alt="reddit" height="32" width="32" />
+                    </a>
+                    <a href="https://www.telegram.com" target="_blank">
+                        <img src="./images/icons8-telegram-32.png" alt="telegram" height="32" width="32" />
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="./images/icons8-youtube-32.png" alt="youtube" height="32" width="32" />
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="./images/icons8-linkedin-32.png" alt="LinkedIn" height="32" width="32" />
+                    </a>
+                </div>
+                <div class="footer-container">
+                    <ul>
+                        <li class="footer-title">Business</li>
+                        <li>P2P Merchant Application</li>
+                        <li>P2Pro Merchant Application</li>
+                        <li>Listing Application</li>
+                        <li>Institutional & VIP Services</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-title">Services</li>
+                        <li>Affiliate</li>
+                        <li>Referral</li>
+                        <li>OTC Trading</li>
+                        <li>Historical Market Data</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-title">Support</li>
+                        <li>24/7 Chat Support</li>
+                        <li>Support Center</li>
+                        <li>APIs</li>
+                        <li>Law Enforcement Requests</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-title">About Us</li>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Building Trust</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="owner">
+                <div class="copyright">AGORA© 2024</div>
+            </div>
+        </footer>
     </div>
 
     <div class="icon-support">
-      <a href="" target="_blank">
-        <img
-          src="./images/icons8-support-40.png"
-          alt="LinkedIn"
-          height="40"
-          width="40"
-        />
-        <div class="text-support">Support</div>
-      </a>
+        <a href="" target="_blank">
+            <img src="./images/icons8-support-40.png" alt="LinkedIn" height="40" width="40" />
+            <div class="text-support">Support</div>
+        </a>
     </div>
 
     <script src="./main.js"></script>
-  </body>
+</body>
+
 </html>
