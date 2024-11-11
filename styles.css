@@ -79,7 +79,7 @@ input {
   font-weight: 700;
 }
 
-.button-sign:hover{
+.button-sign:hover {
   background-color: rgba(255, 187, 0, 0.918);
 }
 
@@ -149,7 +149,7 @@ input {
 /*Parallax*/
 .parallax {
   background-image: url("https://wallpapercave.com/wp/wp2337017.jpg");
-  height: 230vh;
+  height: 248vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,12 +210,13 @@ input::placeholder {
   font-weight: bolder;
   margin-top: 10px;
 }
-.sign-up:hover{
-background-color: rgb(241, 178, 2);
-cursor: pointer;
+
+.sign-up:hover {
+  background-color: rgb(241, 178, 2);
+  cursor: pointer;
 }
 
-                  /*Crypto-Listing Section*/
+/*Crypto-Listing Section*/
 
 .crypto-wrapper {
   display: flex;
@@ -394,6 +395,40 @@ cursor: pointer;
   color: rgb(255, 187, 0);
 }
 
+/*News Letter*/
+
+.newsletter {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0 80px;
+}
+
+.newsletter-text {
+  width: 40%;
+  padding: 40px;
+}
+
+.news-text,
+#title {
+  color: black;
+}
+.news-text{
+  font-weight: 100;
+  font-size: 17px;
+}
+#title {
+  font-size: 35px;
+}
+
+
+.newsletter-image {
+  margin-left: -40px;
+}
+
+
 /*Footer*/
 
 .footer-wraper {
@@ -457,7 +492,7 @@ cursor: pointer;
   position: relative;
   display: inline-block;
   align-items: center;
-  bottom: -160px;
+  bottom: -380px;
   left: 60px;
 }
 

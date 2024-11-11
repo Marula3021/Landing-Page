@@ -28,7 +28,9 @@ Note: The crypto prices and percentages are fictional and not reflective of real
 Due to my current knowledge limitations in responsive design, the landing page behaves well only in 1080p and iPad displays. I plan to update this project to be fully responsive as soon as I tackle responsive design in future lessons.
 
 Images Credit
-Social media icons PNG files: Icons8
+Social media icons PNG files: https://Icons8.com/
 
 Crypto logos PNG files: Binance
+
+Newsletter image: https://iconscout.com/
 
