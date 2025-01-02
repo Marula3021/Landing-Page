@@ -97,12 +97,12 @@ input {
   left: 0;
   background-color: rgb(255, 187, 0);
   transition: transform 0.25s ease-out;
-  transform-origin: bottom right;
+  transform-origin: center;
 }
 
 .button:hover::after {
   transform: scaleX(1);
-  transform-origin: bottom left;
+  transform-origin: center;
 }
 
 /*search bar*/
